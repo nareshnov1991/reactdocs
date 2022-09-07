@@ -1,0 +1,109 @@
+bgomjsr... 
+reactjs
+
+////////////////////////////////////////////
+
+////////////////////////////////////////////
+Basic Code 
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+function Hello(props) {
+  return <h1>Hello World!</h1>;
+}
+
+ReactDOM.render(<Hello />, document.getElementById("root"));
+
+/////////////////////////////////////////////////////
+
+
+
+Tutorials 
+https://www.w3schools.com/REACT/DEFAULT.ASP
+https://www.javatpoint.com/reactjs-tutorial
+
+
+
+reaces6
+classes,arrow functions ,variables, array methods,, destructing, spread operator 
+
+
+/// Code in 6.x version...  
+
+return (
+
+    <div >
+      <Router>
+      <HeaderComponent />
+      <h1>Test Code</h1>
+      <div className="container">
+        
+    
+     
+       <BrowserRouter>
+       <Routes>
+       <Route path="/" element={<ListEmployeeComponent />} />
+       <Route path = "/" exact component = {ListEmployeeComponent}></Route>
+      <Route path="/employees" element={<ListEmployeeComponent />} />
+      <Route path="/add-employee/:id" component={<CreateEmployeeComponent />} />
+      <Route path="/view-employee/:id" component={<ViewEmployeeComponent />} />
+      </Routes>
+      </BrowserRouter>
+   
+  
+      {/* <Route path = "/" exact component = {ListEmployeeComponent}></Route>
+      <Route path = "/employees" component = {ListEmployeeComponent}></Route>
+      <Route path = "/add-employee/:id" component = {CreateEmployeeComponent}></Route>
+      <Route path = "/view-employee/:id" component = {ViewEmployeeComponent}></Route> */}
+       {/* <Route path = "/update-employee/:id" component = {UpdateEmployeeComponent}></Route> */}
+        
+  
+      </div>
+      <FooterComponent />
+
+      </Router>
+    </div>
+  );
+}
+
+/////////////////////////////////////////////////
+
+
+react comparisions
+= is used for assigning values to a variable in JavaScript.
+== is used for comparison between two variables irrespective of the datatype of variable.
+=== is used for comparision between two variables but this will check strict type, which means it will check datatype and compare two values.
+
+***
+https://www.c-sharpcorner.com/article/difference-between-and-in-javascript2/#:~:text=%3D%3D%20is%20used%20for%20comparison,datatype%20and%20compare%20two%20values.
+
+How do you use store in react?
+It's simple to get access to the store inside a React component – no need to pass the store as a prop or import it, just use the connect function from React Redux, and supply a mapStateToProps function that pulls out the data you need. Then, inside the component, you can pass that data to a function that needs it
+
+
+What is store in react Redux?
+A store is an immutable object tree in Redux. A store is a state container which holds the application's state. Redux can have only a single store in your application. Whenever a store is created in Redux, you need to specify the reducer. Let us see how we can create a store using the createStore method from Redux.
+
+
+. Whenever a store is created in Redux, you need to specify the reducer.
+https://www.tutorialspoint.com/redux/redux_store.htm
+
+
+connect()
+https://react-redux.js.org/api/connect
+The connect() function connects a React component to a Redux store.
+It provides its connected component with the pieces of the data it needs from the store, and the functions it can use to dispatch actions to the store.
+
+@connect()
+https://stackoverflow.com/questions/32646920/whats-the-at-symbol-in-the-redux-connect-decorator
+
+
+all type version of code react
+https://reactnavigation.org/docs/getting-started
+
+//////////////////////////////////////////////////////////////////////
+
+
+complete reactjs web application
+https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
